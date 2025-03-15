@@ -1,0 +1,28 @@
+.block{
+    width: 100px;
+    height: 100px;
+}
+.image{
+    width: 50%;   
+}
+.text{
+    width: 45%;
+    float: right;
+    margin-top: 100px;
+}
+.text > p{
+    font-weight: 200;
+    font-size: 25px;
+}
+.text > button{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    transition: 0.5s ease ;
+}
+.text > button:hover{
+    background-color: gray;
+}
